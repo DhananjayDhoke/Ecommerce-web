@@ -1,0 +1,17 @@
+
+#homeContainer{
+    background-color: aquamarine;
+    height: 100vmax;
+    
+   
+}
+#pdiv{
+    display: flex;
+    width: 90vw;
+    margin: 20px auto;
+    padding: 10px;
+    
+
+
+   
+}

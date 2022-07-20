@@ -1,0 +1,23 @@
+#maindiv{
+    display: flex;
+    width: 90vw;
+    margin: 20px auto;
+    padding: 10px;
+    flex-wrap: wrap;
+  
+ 
+}
+
+#productdiv{
+    width: 20vh;
+    text-align: center;
+    padding: 10px;
+  
+   
+}
+img{
+    width: 100%;
+}
+#productdiv:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
