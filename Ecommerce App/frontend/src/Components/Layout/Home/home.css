@@ -1,17 +1,31 @@
 
 #homeContainer{
     background-color: aquamarine;
-    height: 100vmax;
-    
+    height: 50vmax;
+    text-align: center;
+    line-height:50px;
+    background: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
    
 }
 #pdiv{
     display: flex;
+    flex-wrap: wrap;
     width: 90vw;
     margin: 20px auto;
     padding: 10px;
-    
-
-
+   border: 2px solid black;
    
+}
+
+.sbutton{
+    margin-top: 20px;
+    font-size:1rem ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.sbutton:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: white;
 }
